@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.TestNg2"/>
+      <class name="test.TestNg1">
+          <methods>
+          <exclude name="secondMethod"/>
+          </methods>
+      </class>
+    </classes>
+  </test> 
+  
+  
+    <test name="Test3">
+    <classes>
+      <class name="test.TestNg3">
+        <methods>
+        <include name="ts3Method3"/>
+        </methods>
+      </class>
+    </classes>
+    </test>
+</suite>
+
