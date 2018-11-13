@@ -17,7 +17,7 @@
     <classes>
       <class name="test.TestNg3">
         <methods>
-        <include name="ts3Method3"/>
+        <exclude name="ts3Method.*"/>
         </methods>
       </class>
     </classes>
