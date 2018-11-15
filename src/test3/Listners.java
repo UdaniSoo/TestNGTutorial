@@ -16,7 +16,7 @@ public class Listners implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) { 
 		// TODO Auto-generated method stub
-		System.out.println("This test is success by listner");
+		System.out.println("This test is success by listner: " +result.getName());
 		
 	}
 
