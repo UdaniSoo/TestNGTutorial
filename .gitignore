@@ -99,3 +99,13 @@ test-output/testng-results.xml
 test-output/Default suite/Default test.html
 test-output/Default suite/Default test.xml
 test-output/emailable-report.html
+test-output/testng-results.xml
+test-output/old/index.html
+test-output/old/Default suite/toc.html
+test-output/old/Default suite/testng.xml.html
+test-output/old/Default suite/methods.html
+test-output/old/Default suite/methods-alphabetical.html
+test-output/old/Default suite/classes.html
+test-output/junitreports/TEST-TestNgOne.xml
+test-output/junitreports/TEST-test2.Test2Class1.xml
+test-output/index.html
