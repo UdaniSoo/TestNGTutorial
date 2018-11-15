@@ -14,7 +14,7 @@ public class TestNg3 {
 		System.out.println("3.Method 2");
 	}
 	@Test
-	public void ts3Method3()
+	public void aaat()
 	{
 		System.out.println("3.Method 3");
 	}

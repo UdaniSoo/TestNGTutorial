@@ -11,7 +11,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class BeforeTestAnno {
-	@Test
+	
+	@Test(dependsOnMethods={"normaltest2"})
 	public void normaltest()
 	{
 		System.out.println("Normal test");
@@ -69,5 +70,7 @@ public class BeforeTestAnno {
 	{
 		System.out.println("This is after method");
 	}
+	
+
 
 }
